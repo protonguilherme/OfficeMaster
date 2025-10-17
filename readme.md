@@ -55,35 +55,54 @@ DATABASE_KEY=chave_de_acesso
 
 ## 📁 Estrutura do projeto:
 ```
-nomeDoProjeto/
+OfficeMaster/
 ├── apresentacao
 │   ├── apresentacao.pdf
 │   └── apresentacao.pptx
-├── backend
-│   ├── src
-│   ├── .gitignore
-│   ├── readme.md
-│   └── ...demais arquivos
 ├── documentacao
 │   ├── 01_cartaDeApresentacao.pdf
 │   ├── 02_cartaDeAutorizacao.pdf
 │   ├── 03_declaracaoDeUsoDeDadosPublicos.pdf
 │   ├── 04_roteiroDeExtensao.pdf
 │   └── documentacao.md
-├── frontend
-│   ├── assets
-│   ├── src
-│   ├── .gitignore
-│   ├── package.json
-│   ├── readme.md
-│   └── ...demais arquivos
+├── Projeto
+│   ├── App.tsx
+│   ├── backend
+│   │   ├── config
+│   │   │   ├── firebaseConfig.ts
+│   │   │   ├── database.ts
+│   │   │   └── index.ts
+│   │   └── utils
+│   ├── frontend
+│   │   ├── components
+│   │   │   └── ClientSelector.tsx
+│   │   └── screens
+│   │       ├── AddClientScreen.tsx
+│   │       ├── AddScheduleScreen.tsx
+│   │       ├── AddServiceOrderScreen.tsx
+│   │       ├── ClientDetailsScreen.tsx
+│   │       ├── ClientsScreen.tsx
+│   │       ├── EditClientScreen.tsx
+│   │       ├── EditServiceOrderScreen.tsx
+│   │       ├── ForgotPasswordScreen.tsx
+│   │       ├── HomeScreen.tsx
+│   │       ├── InventoryScreen.tsx
+│   │       ├── LoginScreen.tsx
+│   │       ├── ProfileScreen.tsx
+│   │       ├── RegisterScreen.tsx
+│   │       ├── ScheduleDetailsScreen.tsx
+│   │       ├── ScheduleScreen.tsx
+│   │       ├── ServiceOrderDetailsScreen.tsx
+│   │       ├── ServiceOrdersScreen.tsx
+│   │       └── ToastSystem.tsx
+│   ├── index.js
+│   └── tsconfig.json
 ├── video
 │   ├── apresentacao.gif
 │   ├── apresentacao.mkv
 │   ├── apresentacao.mp4
 │   └── video.txt  O conteúdo deste arquivo deve ser o local público onde está o vídeo caso tenha mais de 10MB
 └── readme.md  Este arquivo é uma visão geral do projeto e não precisa ser idêntico a este arquivo
-```
 
 ## 📦 Instale os requisitos do projeto:
 
