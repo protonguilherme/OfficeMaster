@@ -8,7 +8,7 @@ A solução compartilhada neste repositório consiste no desenvolvimento de uma 
 
 ## Equipe do projeto
 
-Matrícula - NomeCompleto1
+202402360231 - Guilherme Proton Silva dos Santos 
 
 Matrícula - NomeCompleto2
 
